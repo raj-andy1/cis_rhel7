@@ -34,7 +34,7 @@ class cis_rhel7 inherits ::cis_rhel7::params {
   include ::cis_rhel7::rule::rule_3_6
   include ::cis_rhel7::rule::rule_3_7
   include ::cis_rhel7::rule::rule_3_8
-  include ::cis_rhel7::rule::rule_3_9
+  #include ::cis_rhel7::rule::rule_3_9 (leave httpd in place)
   include ::cis_rhel7::rule::rule_3_16
   include ::cis_rhel7::rule::rule_4_1_1
   include ::cis_rhel7::rule::rule_4_2_1
