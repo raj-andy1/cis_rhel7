@@ -12,7 +12,7 @@ class cis_rhel7 inherits ::cis_rhel7::params {
   include ::cis_rhel7::rule::rule_1_1_7
   include ::cis_rhel7::rule::rule_1_1_14
   include ::cis_rhel7::rule::rule_1_1_17
-  include ::cis_rhel7::rule::rule_1_1_18
+  #include ::cis_rhel7::rule::rule_1_1_18
   include ::cis_rhel7::rule::rule_1_2_1
   include ::cis_rhel7::rule::rule_1_2_2
   include ::cis_rhel7::rule::rule_1_2_3
@@ -31,7 +31,7 @@ class cis_rhel7 inherits ::cis_rhel7::params {
   include ::cis_rhel7::rule::rule_3_1
   include ::cis_rhel7::rule::rule_3_2
   include ::cis_rhel7::rule::rule_3_3
-  include ::cis_rhel7::rule::rule_3_6
+  #include ::cis_rhel7::rule::rule_3_6
   include ::cis_rhel7::rule::rule_3_7
   include ::cis_rhel7::rule::rule_3_8
   #include ::cis_rhel7::rule::rule_3_9 (leave httpd in place)
@@ -42,7 +42,7 @@ class cis_rhel7 inherits ::cis_rhel7::params {
   include ::cis_rhel7::rule::rule_4_5_1
   include ::cis_rhel7::rule::rule_4_5_2
   include ::cis_rhel7::rule::rule_4_5_4
-  include ::cis_rhel7::rule::rule_4_6_1
+  #include ::cis_rhel7::rule::rule_4_6_1
   include ::cis_rhel7::rule::rule_4_7
   include ::cis_rhel7::rule::rule_5_1_1
   include ::cis_rhel7::rule::rule_5_2_1_1
